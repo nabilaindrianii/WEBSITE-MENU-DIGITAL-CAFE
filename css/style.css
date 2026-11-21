@@ -1,0 +1,159 @@
+.banner {
+    background-color: #D6B99A;
+    min-height: 210px;
+    border: 3px solid #3B241C;
+    border-radius: 14px;
+    padding: 20px 5.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 17px;
+    
+}
+
+.text-banner {
+    flex: 1px;
+    line-height: 5px;
+    font-size: large;
+}
+
+.d-flex {
+background-color:#70452A;
+display: flex;
+flex-direction: row;
+align-items: center;
+gap :10px;
+padding: 10px 20px;
+color: #F3E5D0
+}
+
+.logo-bulat {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit:cover ;
+    flex-shrink: 0;
+}
+
+
+.gambar-cafe {
+    width: 350px;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.d-menu
+{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 10px;
+align-items: center;
+}
+
+.gambar-menu {
+    width: 200px;
+    height: 165px;
+    border-radius: 15px;
+    border: 3px solid #3B241C;
+}
+
+.menu-text {
+    text-align: center;
+}
+
+.button-menu {
+    background-color: #3B241C;
+    color:#F3E5D0;
+    border: 2px solid #F3E5D0;
+    padding: 15px 40px;
+    font-size:  15px;
+    cursor:pointer;
+    width: 300px;
+    height: 50px;
+    border-radius:150px;
+    margin-top: 70px;
+    
+}
+.d-button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.metode-text {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.metod-pembayaran {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.kotak {
+    background-color: #70452A;
+    border: 1px solid #3B241C;
+    border-radius: 17px;
+    height: 45px;
+    width: 500px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color:#F3E5D0;
+}
+
+.button-pay {
+     background-color: #3B241C;
+    color:#F3E5D0;
+    border: 2px solid #F3E5D0;
+    padding: 15px 40px;
+    font-size:  15px;
+    cursor:pointer;
+    width: 300px;
+    height: 50px;
+    border-radius:150px;
+    margin-top: 130px;
+
+}
+
+.pay-done {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.pay-done img {
+    width: 60px
+    height: auto;
+}
+
+.text-pay-d {
+    text-align: center;
+    line-height: 4px;
+    flex: 1;
+    margin-top: 5px;
+}
+
+.button-back {
+    align-items: center;
+    margin-top: 200px;
+    text-align: center;
+}
+
+body {
+    background-color:#F3E5D0
+}
+
+body {
+    color:#3B241C
+}
+.fa-circle-check {
+    color: #8B5E3C;
+    font-size: 30px;
+}
